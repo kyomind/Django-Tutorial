@@ -1,5 +1,5 @@
 # 使用說明
-這個倉庫是我的 blog——[Code and Me](https://blog.kyomind.tw/) 中，Django 系列教學文章的**實作參考程式碼**，目前文章預計如下：
+這個倉庫是我的 blog——[Code and Me](https://blog.kyomind.tw/)——上 Django 系列教學文章的**實作參考程式碼**，目前文章預計如下：
 ## Django ORM 系列
 1. Django ORM：一對一、一對多外鍵，關聯設定與查詢教學
 2. Django ORM：多對多外鍵教學
