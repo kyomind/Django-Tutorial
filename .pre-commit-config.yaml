@@ -36,3 +36,4 @@ repos:
         exclude: migrations/
         args:
           - --line-length=100
+          - --skip-string-normalization
