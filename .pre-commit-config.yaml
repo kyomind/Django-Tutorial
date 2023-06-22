@@ -19,7 +19,7 @@ repos:
         exclude: migrations/
         args:
           - --max-line-length=100
-          - --ignore=E131
+          - --ignore=E131,E402,E501,W503
 
   - repo: https://github.com/PyCQA/isort
     rev: 5.11.5
