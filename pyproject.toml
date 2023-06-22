@@ -20,3 +20,10 @@ pre-commit = "^3.3.3"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100  # 預設值是 88
+skip-string-normalization = 1  # 不強制把單引號變成雙引號
+
+[tool.isort]
+line_length = 100
