@@ -3,7 +3,7 @@ from django.db import models
 
 # 文章
 class Post(models.Model):
-    title = models.OneToOneField('Title', on_delete=models.CASCADE, related_name='post')
+    title = models.OneToOneField('Title', on_delete=models.PROTECT, related_name='post')
     content = models.TextField()
 
     def __str__(self):
