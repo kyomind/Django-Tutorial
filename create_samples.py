@@ -25,7 +25,7 @@ def create_samples():
 
     # 建立Comment資料
     Comment.objects.create(post=post1, content="實用的心得分享")
-    Comment.objects.create(post=post1, content="太棒了")
+    Comment.objects.create(post=post1, content="喜歡這篇文章")
     Comment.objects.create(post=post2, content="確實是好書")
 
     print("建立範例資料完成")
