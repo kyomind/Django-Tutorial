@@ -3,7 +3,7 @@ import os
 import django
 
 # 設定環境變數
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Blog.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "DjangoTutorial.settings")
 
 # 初始化 Django
 django.setup()
