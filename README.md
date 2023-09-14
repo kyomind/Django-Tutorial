@@ -1,4 +1,9 @@
 # 使用說明
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-blue?labelColor=444&logo=conventionalcommits)](https://conventionalcommits.org)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-blue?labelColor=444&logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+![](https://img.shields.io/codecov/c/github/kyomind/kyo-django-tutorial?labelColor=444&logo=codecov&color=blue)
+
+
 這個倉庫是我 [Django 系列教學文章](https://blog.kyomind.tw/categories/Django/)的**實作參考程式碼**，目前文章預計如下：
 ## Django ORM 系列
 1. [Django ORM：一對一、一對多外鍵教學（上）前言與關聯設定](https://blog.kyomind.tw/django-models/)
