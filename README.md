@@ -1,5 +1,4 @@
-![Kyo's Django Tutorial](https://i.imgur.com/9LAWFLv.png)
-
+![Kyo's Django Tutorial](https://i.imgur.com/D4mTT4l.png)
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-blue?labelColor=444&logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 ![](https://img.shields.io/codecov/c/github/kyomind/kyo-django-tutorial?labelColor=444&logo=codecov&color=blue)
