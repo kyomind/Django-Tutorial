@@ -1,7 +1,6 @@
 ![Kyo's Django Tutorial](https://i.imgur.com/9LAWFLv.png)
 
 
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-blue?labelColor=444&logo=conventionalcommits)](https://conventionalcommits.org)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-blue?labelColor=444&logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 ![](https://img.shields.io/codecov/c/github/kyomind/kyo-django-tutorial?labelColor=444&logo=codecov&color=blue)
 
