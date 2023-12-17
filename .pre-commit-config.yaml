@@ -12,29 +12,10 @@ repos:
       - id: end-of-file-fixer
         exclude: migrations/
 
-  - repo: https://github.com/PyCQA/flake8
-    rev: 6.0.0
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.8
     hooks:
-      - id: flake8
-        exclude: migrations/
+      - id: ruff
         args:
-          - --max-line-length=100
-          - --ignore=E131,E402,E501,W503
-
-
-  - repo: https://github.com/PyCQA/isort
-    rev: 5.11.5
-    hooks:
-      - id: isort
-        exclude: migrations/
-        args:
-          - --line-length=100
-
-  - repo: https://github.com/psf/black
-    rev: 23.3.0
-    hooks:
-      - id: black
-        exclude: migrations/
-        args:
-          - --line-length=100
-          - --skip-string-normalization
+          - --fix
+      - id: ruff-format

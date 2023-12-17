@@ -12,17 +12,17 @@ python = "^3.10"
 django = "^4.2"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.3.0"
-flake8 = "^6.0.0"
 pre-commit = "^3.3.3"
+ruff = "^0.1.8"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.black]
-line-length = 100  # 預設值是 88
-skip-string-normalization = 1  # 不強制把單引號換成雙引號
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I", "UP"]
+target-version = "py310"
 
-[tool.isort]
-line_length = 100
+[tool.ruff.format]
+quote-style = "single"
