@@ -1,11 +1,10 @@
 [tool.poetry]
-name = "kyo-django-tutorial"
+name = "Django Tutorial"
 version = "0.1.0"
 description = ""
 authors = ["kyo <odinxp@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "kyo_django_tutorial"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
