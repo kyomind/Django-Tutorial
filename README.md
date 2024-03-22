@@ -4,9 +4,9 @@
 [![linting - Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![code style - Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/format.json?labelColor=444)](https://github.com/astral-sh/ruff)
 
-這個倉庫是我的部落格——[Code and Me](https://blog.kyomind.tw/)——技術類教學文章的範例程式碼。以 [Django Tutorial](https://blog.kyomind.tw/tags/Django-Tutorial/) 系列文章為主軸，並包括本站其它技術文章內容實作。可參考下方相關文章列表。
+這個 repo 是我的部落格——[Code and Me](https://blog.kyomind.tw/)——技術類教學文章的範例程式碼。以 [Django Tutorial](https://blog.kyomind.tw/tags/Django-Tutorial/) 系列為主軸，並包括其他 Python 開發實作。可參考下方文章列表。
 
-## 相關文章列表
+## 文章列表
 
 | 分支                       | 文章標題                                                         | 更新日期       |
 |--------------------------|--------------------------------------------------------------|------------|
