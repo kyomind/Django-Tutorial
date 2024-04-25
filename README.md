@@ -6,13 +6,13 @@
 
 這個 repo 是我的部落格——[Code and Me](https://blog.kyomind.tw/)——技術類教學文章的範例程式碼。以 [Django Tutorial](https://blog.kyomind.tw/tags/Django-Tutorial/) 系列為主軸，並包括其他 Python 開發實作。可參考下方文章列表。
 
-## 文章列表
+## 文章列表（★表示 Django Tutorial 系列）
 
-| 分支                       | 文章標題                                                         | 更新日期       |
-|--------------------------|--------------------------------------------------------------|------------|
-| 01-django-models         | [Django ORM：一對一、一對多外鍵教學（上）前言與關聯設定](https://blog.kyomind.tw/django-models/) | 2023-12-30 |
-| 02-ruff                  | [Python 開發：Ruff Linter、Formatter 介紹 + 設定教學](https://blog.kyomind.tw/ruff/) | 2024-01-06 |
-| 03-reverse-relationships | [Django ORM：一對一、一對多外鍵教學（中）反向關聯](https://blog.kyomind.tw/reverse-relationships/) | 2024-04-18 |
+| ★   | 分支                     | 文章標題                                                                                           | 更新日期   |
+| --- | ------------------------ | -------------------------------------------------------------------------------------------------- | ---------- |
+| ★   | 01-django-models         | [Django ORM：一對一、一對多外鍵教學（上）前言與關聯設定](https://blog.kyomind.tw/django-models/)   | 2023-12-30 |
+|     | 02-ruff                  | [Python 開發：Ruff Linter、Formatter 介紹 + 設定教學](https://blog.kyomind.tw/ruff/)               | 2024-01-06 |
+| ★   | 03-reverse-relationships | [Django ORM：一對一、一對多外鍵教學（中）反向關聯](https://blog.kyomind.tw/reverse-relationships/) | 2024-04-18 |
 
 ## 分支說明
 
