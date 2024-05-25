@@ -12,16 +12,30 @@ django = "^4.2"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.3.3"
-ruff = "^0.1.8"
+ruff = "0.4.5"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.ruff]
-line-length = 100
-select = ["E", "F", "I", "UP"]
-target-version = "py310"
+[project]
+requires-python = ">=3.10" #影響pyupgrade檢查與自動修正的版本
 
-[tool.ruff.format]
+[tool.ruff]  # https://docs.astral.sh/ruff/settings/#top-level
+line-length = 100
+exclude = ["**/migrations/", "**/manage.py"]
+
+[tool.ruff.lint]  # https://docs.astral.sh/ruff/settings/#lint
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E402",  # module level import not at top of file
+]
+
+[tool.ruff.format]  # https://docs.astral.sh/ruff/settings/#format
 quote-style = "single"
