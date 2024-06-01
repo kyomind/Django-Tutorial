@@ -13,13 +13,13 @@
 | ★   |         | [Django ORM：一對一、一對多外鍵教學（上）前言與關聯設定](https://blog.kyomind.tw/django-models/)   | 2023-12-30 |
 |     |                 | [Python 開發：Ruff Linter、Formatter 介紹 + 設定教學](https://blog.kyomind.tw/ruff/)               | 2024-05-10 |
 | ★   |  | [Django ORM：一對一、一對多外鍵教學（中）反向關聯](https://blog.kyomind.tw/reverse-relationships/) | 2024-04-18 |
-| ★   | [連結](https://github.com/kyomind/Django-Tutorial/pull/1) | [Django REST framework 教學（二）基本設定與路由](https://blog.kyomind.tw/django-rest-framework-02/) | 2024-06-01 |
+| ★   | [link](https://github.com/kyomind/Django-Tutorial/pull/1) | [Django REST framework 教學（二）基本設定與路由](https://blog.kyomind.tw/django-rest-framework-02/) | 2024-06-01 |
 
 
 ## Pull Request 與連結說明
 
-從第四篇「Django REST framework 教學（二）基本設定與路由」開始，教學文章涉及的程式碼改動，會獨立一個 PR，方便讀者檢視**與該篇文章相關的程式碼**。
+從第四篇起，教學文章涉及的程式碼改動，會獨立一個 PR 並附上連結，方便讀者檢視**與該篇文章相關的程式碼**。
 
 PR 合併後，分支仍會予以保留，分支名稱與文章 slug 相同。
 
-與教學文章無關的小範圍變動，不會發 PR，直接合併。
+與教學文章無關的小改動，不會發 PR，直接合併。
