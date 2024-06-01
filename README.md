@@ -16,7 +16,7 @@
 | ★   | [link](https://github.com/kyomind/Django-Tutorial/pull/1) | [Django REST framework 教學（二）基本設定與路由](https://blog.kyomind.tw/django-rest-framework-02/) | 2024-06-01 |
 
 
-## Pull Request 與連結說明
+## PR 與連結說明
 
 從第四篇起，教學文章涉及的程式碼改動，會獨立一個 PR 並附上連結，方便讀者檢視**與該篇文章相關的程式碼**。
 
