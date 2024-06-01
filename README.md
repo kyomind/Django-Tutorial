@@ -8,20 +8,18 @@
 
 ## 文章列表（★表示 Django Tutorial 系列）
 
-| ★   | 分支                     | 文章標題                                                                                           | 更新日期   |
+| ★   | PR                     | 文章標題                                                                                           | 更新日期   |
 | --- | ------------------------ | -------------------------------------------------------------------------------------------------- | ---------- |
-| ★   | 01-django-models         | [Django ORM：一對一、一對多外鍵教學（上）前言與關聯設定](https://blog.kyomind.tw/django-models/)   | 2023-12-30 |
-|     | 02-ruff                  | [Python 開發：Ruff Linter、Formatter 介紹 + 設定教學](https://blog.kyomind.tw/ruff/)               | 2024-05-10 |
-| ★   | 03-reverse-relationships | [Django ORM：一對一、一對多外鍵教學（中）反向關聯](https://blog.kyomind.tw/reverse-relationships/) | 2024-04-18 |
+| ★   |         | [Django ORM：一對一、一對多外鍵教學（上）前言與關聯設定](https://blog.kyomind.tw/django-models/)   | 2023-12-30 |
+|     |                 | [Python 開發：Ruff Linter、Formatter 介紹 + 設定教學](https://blog.kyomind.tw/ruff/)               | 2024-05-10 |
+| ★   |  | [Django ORM：一對一、一對多外鍵教學（中）反向關聯](https://blog.kyomind.tw/reverse-relationships/) | 2024-04-18 |
+| ★   | [連結](https://github.com/kyomind/Django-Tutorial/pull/1) | [Django REST framework 教學（二）基本設定與路由](https://blog.kyomind.tw/django-rest-framework-02/) | 2024-06-01 |
 
-## 分支說明
 
-每一分支格式如下：
+## Pull Request 與連結說明
 
-```
-01-django-models
-```
+從第四篇「Django REST framework 教學（二）基本設定與路由」開始，教學文章涉及的程式碼改動，會獨立一個 PR，方便讀者檢視**與該篇文章相關的程式碼**。
 
-其中 `01` 代表文章發表的順序編號，`django-models` 代表文章網址 slug，分支內容為該文章所新增的程式碼。
+PR 合併後，分支仍會予以保留，分支名稱與文章 slug 相同。
 
-分支主要作為歷史記錄之用，並在文章發布後，合併到 `main` 。
+與教學文章無關的小範圍變動，不會發 PR，直接合併。
