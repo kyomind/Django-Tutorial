@@ -7,20 +7,20 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.12"
 django = "^4.2"
 djangorestframework = "^3.15.1"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.3.3"
-ruff = "0.4.5"
+ruff = "0.4.10"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [project]
-requires-python = ">=3.10" #影響pyupgrade檢查與自動修正的版本
+requires-python = ">=3.12" # 影響pyupgrade檢查與自動修正的版本
 
 [tool.ruff]  # https://docs.astral.sh/ruff/settings/#top-level
 line-length = 100
