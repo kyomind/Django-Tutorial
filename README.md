@@ -3,6 +3,10 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-blue?labelColor=444&logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 [![linting - Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![code style - Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/format.json?labelColor=444)](https://github.com/astral-sh/ruff)
+[![Python](https://img.shields.io/badge/python-3.12-blue?labelColor=444&logo=python&logoColor=DDD)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/django-4.2-darkgreen?labelColor=444&logo=django)](https://www.djangoproject.com/)
+
+
 
 這個 repo 是我的部落格——[Code and Me](https://blog.kyomind.tw/)——技術類教學文章的範例程式碼。以 [Django Tutorial](https://blog.kyomind.tw/tags/Django-Tutorial/) 系列為主軸，並包括其他 Python 開發實作。可參考下方文章列表。（只收錄涉及**程式碼實作、改動**的文章）
 
