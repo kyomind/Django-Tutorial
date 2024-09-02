@@ -6,7 +6,7 @@ class Post(models.Model):
     title = models.CharField(max_length=100)
     content = models.TextField()
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'<{self.id}>: {self.title}'
 
 
@@ -15,7 +15,7 @@ class Subtitle(models.Model):
     content = models.CharField(max_length=100)
     post = models.OneToOneField(Post, on_delete=models.CASCADE, related_name='subtitle')
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'<{self.id}>: {self.content}'
 
 
@@ -24,5 +24,5 @@ class Comment(models.Model):
     content = models.TextField()
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comments')
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'<{self.id}>: {self.content}'
