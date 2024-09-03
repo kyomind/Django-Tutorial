@@ -20,7 +20,7 @@
 | ★   | [PR](https://github.com/kyomind/Django-Tutorial/pull/1) | [Django REST framework 教學（二）基本設定與路由](https://blog.kyomind.tw/django-rest-framework-02/) | 2024-06-01 |
 | ★   | [PR](https://github.com/kyomind/Django-Tutorial/pull/2) | [用 Django Fixture 匯入與導出資料](https://blog.kyomind.tw/django-fixtures/) | 2024-06-08 |
 | ★   | [PR](https://github.com/kyomind/Django-Tutorial/pull/4) | [Django REST framework 教學（三）View 函式](https://blog.kyomind.tw/django-rest-framework-03/) | 2024-06-29 |
-
+| ★   | [PR](https://github.com/kyomind/Django-Tutorial/pull/5) | [Django 專案加入 Mypy 指南](https://blog.kyomind.tw/mypy-django-guide/) | 2024-09-03 |
 
 ## PR 與連結說明
 
