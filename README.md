@@ -8,6 +8,7 @@
 
 這個 repo 是我的部落格——[Code and Me](https://blog.kyomind.tw/)——技術類教學文章的範例程式碼。以 [Django Tutorial](https://blog.kyomind.tw/tags/Django-Tutorial/) 系列為主軸，並包括其他 Python 開發實作。可參考下方文章列表。（只收錄涉及**程式碼實作、改動**的文章）
 
+> [!NOTE]
 > 如果你對 Django Ninja 教學與 API 開發感興趣，歡迎參考我的姐妹倉庫：[Django-Ninja-Tutorial](https://github.com/kyomind/Django-Ninja-Tutorial)。
 
 ## 文章列表（★表示 Django Tutorial 系列）
