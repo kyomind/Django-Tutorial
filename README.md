@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/python-3.12-blue?labelColor=444&logo=python&logoColor=DDD)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/django-4.2-forestgreen?labelColor=444&logo=django)](https://www.djangoproject.com/)
 
-這個 repo 是我的部落格——[Code and Me](https://blog.kyomind.tw/)——技術類教學文章的範例程式碼。以 [Django Tutorial](https://blog.kyomind.tw/tags/Django-Tutorial/) 系列為主軸，並包括其他 Python 開發實作。可參考下方文章列表。（只收錄涉及**程式碼實作、改動**的文章）
+這個 repo 是我的部落格——[Code and Me](https://blog.kyomind.tw/)——技術類教學文章的範例程式碼。以 [Django Tutorial](https://blog.kyomind.tw/tags/Django-Tutorial/) 系列為主軸，並包括其他 Python 開發實作。可參考下方文章列表。
 
 > [!NOTE]
 > 如果你對 Django Ninja（Django 生態中的 FastAPI）教學與 API 開發感興趣，歡迎參考我的姐妹倉庫：[Django-Ninja-Tutorial](https://github.com/kyomind/Django-Ninja-Tutorial)。
@@ -26,6 +26,4 @@
 
 ## PR 與連結說明
 
-從第四篇起，教學文章涉及的程式碼改動，會獨立一個 PR 並附上連結，方便讀者檢視[與該篇文章相關的程式碼](https://github.com/kyomind/Django-Tutorial/pull/1/files)。
-
-PR 合併後，分支仍會予以保留，分支名稱與文章 slug 相同。
+文章涉及的程式碼改動，會獨立一個 PR 並附上連結，方便讀者檢視[與該篇文章相關的程式碼](https://github.com/kyomind/Django-Tutorial/pull/1/files)。
